@@ -26,12 +26,20 @@ function Home() {
 
         <li className='item'>
             <h2>Languages</h2>
-            <span> C, C++, JavaScript</span>
+            <span>  C, C++, JavaScript, SQL, HTML,CSS ,Php</span>
           </li>
 
           <li className='item'>
             <h2>Front-End</h2>
-            <span> HTML, CSS, JavaScript, ReactJs, BootStrap</span>
+            <span> HTML, CSS, JavaScript, ReactJs, BootStrap, Firebase, API</span>
+          </li>
+          <li className='item'>
+            <h2>Coursework</h2>
+            <span> Data Structures, Object Oriented Programming,Database Management System</span>
+          </li>
+          <li className='item'>
+            <h2>Soft Skill</h2>
+            <span> Time Management, Teamwork, Communication, Problem Solving</span>
           </li>
           
         </ol>
