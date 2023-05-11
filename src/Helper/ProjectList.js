@@ -18,7 +18,7 @@ export const projectList = [
     image: money,
     Skills: 'HTML, CSS, JavaScript, PHP , SQL, Firebase',
     github: "https://github.com/UIET-Saurav-Kumar/Farmer_trust",
-    see: "klanerfa"
+    see: "https://monumental-naiad-bff8cd.netlify.app/",
    },
    {
     name: 'Movie Site',
