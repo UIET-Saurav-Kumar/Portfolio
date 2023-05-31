@@ -1,17 +1,18 @@
 import Tree from '../assets/Tree.jpg';
 import money from '../assets/money.jpg';
 import movie from '../assets/movie.png';
+import youtube from '../assets/youtube.png';
 
 
 
 export const projectList = [
 
    {
-    name: 'Weather Info',
-    image: Tree,
-    Skills: 'HTML, CSS, JavaScript, API',
-    github: "https://github.com/UIET-Saurav-Kumar/weather-info",
-    see: "https://weather-info-saurav.netlify.app/"
+    name: 'Youtube Clone',
+    image: youtube,
+    Skills: 'HTML, CSS, JavaScript, React Js, API, Axios, Material UI',
+    github: "https://github.com/UIET-Saurav-Kumar/youtube_clone",
+    see: "https://647733e206c680108f070b06--golden-ganache-590ca3.netlify.app/"
    },
    {
     name: 'Farmer Trust',
@@ -26,7 +27,14 @@ export const projectList = [
     Skills: 'HTML, CSS, JavaScript, ReactJs',
     github: "https://github.com/UIET-Saurav-Kumar/Movie-Site",
     see: ""
-   }
+   },
+   {
+      name: 'Weather Info',
+      image: Tree,
+      Skills: 'HTML, CSS, JavaScript, API',
+      github: "https://github.com/UIET-Saurav-Kumar/weather-info",
+      see: "https://weather-info-saurav.netlify.app/"
+     }
 
 
 
