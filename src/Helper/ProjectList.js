@@ -1,6 +1,6 @@
 import Tree from '../assets/Tree.jpg';
 import money from '../assets/money.jpg';
-import movie from '../assets/movie.png';
+import movie from '../assets/movie.jpg';
 import youtube from '../assets/youtube.png';
 
 
@@ -15,18 +15,18 @@ export const projectList = [
     see: "https://647733e206c680108f070b06--golden-ganache-590ca3.netlify.app/"
    },
    {
+      name: 'Movie Info Site',
+      image: movie,
+      Skills: 'HTML, CSS, JavaScript, ReactJs',
+      github: "https://github.com/UIET-Saurav-Kumar/Movie-Site",
+      see: ""
+   },
+   {
     name: 'Farmer Trust',
     image: money,
     Skills: 'HTML, CSS, JavaScript, PHP , SQL, Firebase',
     github: "https://github.com/UIET-Saurav-Kumar/Farmer_trust",
     see: "https://monumental-naiad-bff8cd.netlify.app/",
-   },
-   {
-    name: 'Movie Site',
-    image: movie,
-    Skills: 'HTML, CSS, JavaScript, ReactJs',
-    github: "https://github.com/UIET-Saurav-Kumar/Movie-Site",
-    see: ""
    },
    {
       name: 'Weather Info',
