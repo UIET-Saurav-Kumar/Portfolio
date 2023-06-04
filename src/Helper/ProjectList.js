@@ -18,8 +18,8 @@ export const projectList = [
       name: 'Movie Info Site',
       image: movie,
       Skills: 'HTML, CSS, JavaScript, ReactJs',
-      github: "https://github.com/UIET-Saurav-Kumar/Movie-Site",
-      see: ""
+      github: "https://github.com/UIET-Saurav-Kumar/Movie__Site",
+      see: "https://boisterous-druid-d91784.netlify.app/"
    },
    {
     name: 'Farmer Trust',
