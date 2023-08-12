@@ -33,6 +33,7 @@ function App() {
 
   useEffect(() => {
     // Check if the page was redirected with the authorization code
+    console.log("authorizationCode" , authorizationCode);
     const authorizationCode = new URLSearchParams(window.location.search).get('code');
 
     if (authorizationCode) {
