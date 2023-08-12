@@ -41,7 +41,7 @@ function App() {
 
       const tokenParams = {
         client_id: clientId,
-        client_secret: '78b9c85a2d4e50a6b3b9b07ea9e8731d',
+        client_secret: '8a3a475b865e9661da708abaf1c147af',
         grant_type: 'authorization_code',
         redirect_uri: redirectUri,
         code: authorizationCode,
