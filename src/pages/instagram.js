@@ -5,8 +5,8 @@ import axios from 'axios';
 import querystring from 'querystring';
 
 const InstagramPage = () => {
-  const clientId = '279332924797649';
-  const redirectUri = 'https://www.buylowcal.com/home';
+  const clientId = '825991538855284';
+  const redirectUri = 'https://celebrated-pika-4a9fd9.netlify.app/instagram';
   const authEndpoint = 'https://api.instagram.com/oauth/authorize/';
   // const scope = 'user_profile,user_media';
   const scope= "user_profile,user_media"
@@ -32,7 +32,7 @@ const InstagramPage = () => {
 
       const tokenParams = {
         client_id: clientId,
-        client_secret: '26cc09dd26eaab3787f9e46d28b993a4',
+        client_secret: '78b9c85a2d4e50a6b3b9b07ea9e8731d',
         grant_type: 'authorization_code',
         redirect_uri: redirectUri,
         code: authorizationCode,
