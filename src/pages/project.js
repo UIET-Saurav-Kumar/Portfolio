@@ -14,9 +14,6 @@ function Project() {
            <ProjectItem id={idx} name={project.name} image={project.image} key={idx}/>
         )}
         
-        
-
-
       </div>
     </div>
   )
