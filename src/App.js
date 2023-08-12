@@ -56,6 +56,7 @@ function App() {
         })
         .catch(error => {
           console.error('Error fetching access token:', error);
+          console.log("authorizationCode" , authorizationCode);
         });
     }
   }, []);
@@ -63,7 +64,7 @@ function App() {
 
   return (
     <div>
-      <h1>Instagram Authorization</h1>
+      <h1>Instagram AUthorization</h1>
       <button onClick={handleAuthorization}>Authorize with Instagram</button>
     </div>
   );
