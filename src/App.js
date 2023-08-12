@@ -28,12 +28,13 @@ function App() {
     });
 
     const authorizationUrl = `${authEndpoint}?${queryParams}`;
+    console.log("authorizationCode" , authorizationCode);
     window.location.href = authorizationUrl;
   };
 
   useEffect(() => {
     // Check if the page was redirected with the authorization code
-    console.log("authorizationCode" , authorizationCode);
+    
     const authorizationCode = new URLSearchParams(window.location.search).get('code');
 
     if (authorizationCode) {
