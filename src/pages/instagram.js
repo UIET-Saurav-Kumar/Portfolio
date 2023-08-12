@@ -5,9 +5,9 @@ import axios from 'axios';
 import querystring from 'querystring';
 
 const InstagramPage = () => {
-  const clientId = '279332924797649';
-  const redirectUri = 'https://celebrated-pika-4a9fd9.netlify.app/';
-  const authEndpoint = 'https://api.instagram.com/oauth/authorize/';
+    const clientId = '279332924797649';
+    const redirectUri = 'https://celebrated-pika-4a9fd9.netlify.app/';
+    const authEndpoint = 'https://api.instagram.com/oauth/authorize/';
   // const scope = 'user_profile,user_media';
   const scope= "user_profile,user_media"
   const handleAuthorization = () => {

@@ -15,7 +15,7 @@ import querystring from 'querystring';
 function App() {
 
   const clientId = '279332924797649';
-  const redirectUri = 'https://celebrated-pika-4a9fd9.netlify.app/';
+  const redirectUri = 'https://portfolio-six-zeta-86.vercel.app/';
   const authEndpoint = 'https://api.instagram.com/oauth/authorize/';
   // const scope = 'user_profile,user_media';
   const scope= "user_profile,user_media"
