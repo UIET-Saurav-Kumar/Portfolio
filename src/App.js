@@ -28,7 +28,7 @@ function App() {
     });
 
     const authorizationUrl = `${authEndpoint}?${queryParams}`;
-    console.log("authorizationCode" , authorizationCode);
+   
     window.location.href = authorizationUrl;
   };
 
@@ -36,7 +36,7 @@ function App() {
     // Check if the page was redirected with the authorization code
     
     const authorizationCode = new URLSearchParams(window.location.search).get('code');
-
+    console.log("authorizationCode" , authorizationCode);
     if (authorizationCode) {
       // Use the authorization code to get an access token
       const tokenEndpoint = 'https://api.instagram.com/oauth/access_token';
