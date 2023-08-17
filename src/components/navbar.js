@@ -25,7 +25,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects</Link>
         <Link to="/experience"> Experience </Link>
-        <Link to="/instagram1"> instagram </Link>
+        {/* <Link to="/instagram1"> instagram </Link> */}
         {/* <Link to="/instagram"> Instagram </Link> */}
 
         </div>
